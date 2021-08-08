@@ -133,6 +133,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ubuntu/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/ubuntu/catkin_ws/build/ros-i2cpwmboard/cmake_install.cmake")
   include("/home/ubuntu/catkin_ws/build/rccar_llc/cmake_install.cmake")
+  include("/home/ubuntu/catkin_ws/build/async_web_server_cpp/cmake_install.cmake")
+  include("/home/ubuntu/catkin_ws/build/web_video_server/cmake_install.cmake")
 
 endif()
 
