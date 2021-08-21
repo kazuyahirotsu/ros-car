@@ -1,5 +1,6 @@
 # ros-car
 ```
+sudo chmod 666 /dev/i2c-1
 roscore
 rosrun i2cpwm_board i2cpwm_board
 rosrun rccar_llc low_level_control.py
