@@ -1,4 +1,8 @@
 # ros-car
+run this
+```
+sudo apt install libi2c-dev
+```
 ```
 sudo chmod 666 /dev/i2c-1
 roscore
