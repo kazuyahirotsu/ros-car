@@ -1,0 +1,8 @@
+<launch>
+  <node name="i2cpwm_board" pkg="i2cpwm_board" type="i2cpwm_board" output="screen" />
+  <node name="rccar_llc" pkg="rccar_llc" type="low_level_control.py" />
+  <node name="teleop_twist_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen" />
+  <node name="cv_camera" pkg="cv_camera" type="cv_camera_node" output="screen" />
+  <node name="web_video_server" pkg="web_video_server" type="web_video_server" output="screen" />
+  <node name="color_detector" pkg="color_detector" type="color_detector.py" output="screen" />
+</launch>
