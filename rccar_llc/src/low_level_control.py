@@ -10,7 +10,7 @@ import time
 
 
 class ServoConvert():
-    def __init__(self, id=1, center_value=333, range=80, direction=1):
+    def __init__(self, id=1, center_value=320, range=14, direction=1):
         self.value = 0.0
         self.value_out = center_value
         self._center = center_value
